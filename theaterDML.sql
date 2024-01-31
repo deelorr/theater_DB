@@ -23,22 +23,33 @@ FROM customers
 --     'ts@gmail.com'
 -- );
 
--- SELECT *
--- FROM concessions
+SELECT *
+FROM concessions
 
 -- INSERT INTO concessions (
 --     item_name,
+--     cust_id,
 --     amount_sold
 -- ) VALUES (
 --     'Popcorn',
---     12
+--     2,
+--     3
 -- ), (
 --     'Soda',
---     11
+--     1,
+--     4
+-- ), (
+--     'Candy',
+--     3,
+--     10
+-- ), (
+--     'Beer',
+--     3,
+--     1
 -- );
 
--- SELECT *
--- FROM movies
+SELECT *
+FROM movies
 
 -- INSERT INTO movies (
 --     title,
@@ -62,17 +73,27 @@ FROM customers
 --     'Adventure, Fantasy'
 -- );
 
--- SELECT *
--- FROM tickets
+SELECT *
+FROM tickets
 
 -- INSERT INTO tickets (
+--     film_id,
+--     cust_id,
 --     tickets_sold
 -- ) VALUES (
---     4
--- ), (
+--     4,
+--     3,
 --     2
 -- ), (
+--     2,
+--     4,
+--     1
+-- ), (
+--     3,
+--     2,
 --     3
 -- ), (
---     4
+--     4,
+--     2,
+--     3
 -- );
